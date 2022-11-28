@@ -6,18 +6,19 @@
 #define TEST_ANIMAL_H
 
 
-class Animal {
+#include "Espece.h"
+#include "RegimeAlimentaire.h"
 
-//    add attribute : espece (string), nombre de membres (int), regime alimentaire (string), esperence de vie (int), duree de gestation (int)
+class Animal {
     private:
-        char espece{};
+        Espece espece{};
         int nombreDeMembres{};
-        char regimeAlimentaire{};
+        RegimeAlimentaire regimeAlimentaire{};
         int esperenceDeVie{};
         int dureeDeGestation{};
 //    add constructor with all attributes
     public:
-        Animal(char espece, int nombreDeMembres, char regimeAlimentaire, int esperenceDeVie, int dureeDeGestation);
+        Animal(Espece espece, int nombreDeMembres, RegimeAlimentaire regimeAlimentaire, int esperenceDeVie, int dureeDeGestation);
 
 };
 

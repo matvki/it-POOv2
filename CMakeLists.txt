@@ -3,4 +3,4 @@ project(test)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(test main.cpp Animal.cpp Animal.h)
+add_executable(test main.cpp Animal.cpp Animal.h Espece.cpp Espece.h RegimeAlimentaire.cpp RegimeAlimentaire.h)

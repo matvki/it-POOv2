@@ -4,6 +4,7 @@
 
 #include "Animal.h"
 
-Animal::Animal(char espece, int nombreDeMembres, char regimeAlimentaire, int esperenceDeVie, int dureeDeGestation) {
+Animal::Animal(Espece espece, int nombreDeMembres, RegimeAlimentaire regimeAlimentaire, int esperenceDeVie,
+               int dureeDeGestation) {
 
 }
